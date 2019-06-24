@@ -1,0 +1,135 @@
+* {
+    text-align: center;
+}
+
+body,html {
+    max-height: 100%;
+}
+
+.background {
+    max-height: 100%;
+    background-image: url(tinder.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    
+}
+
+span {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    display: block;
+    padding-bottom: 15px;
+}
+
+a {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+a:hover{ colour: blue;}
+
+a:active {color: darkblue;}
+
+form {
+    height: 100%
+}
+
+.text-body {
+    padding-bottom: 5px;
+}
+
+.form-top {
+    padding-bottom: 20px
+}
+
+.form-content,
+.row {
+    padding-bottom: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.col {
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.logo-icon {
+    margin-left: 35px;
+    width: 22%px;
+    height: 54px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.all-icons {
+    width: 30px;
+    height: 30px;
+}
+
+.all-icons.close {
+    width: 28px;
+    height: 28px;
+    float: right;
+}
+
+button.bottom-icons {
+    margin-top: 1px;
+    padding: 8px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px lightgray;
+    border-radius: 10px;
+}
+
+.btn {
+    height: 75%;
+    padding: 10px;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.btn.btn-facebook {
+    background-image: linear-gradient(to bottom right, rgb(40,20, 180), rgba(93, 188, 210, 1));
+    font-size: 20px;
+    text-emphasis: bold;
+    color: white;
+}
+
+.btn.btn-facebook:hover{
+    color:black;
+}
+
+.btn.btn-number {
+    border-color: darkgray;
+    border-width: 1px;
+    color: lightgray;
+    font-size: 20px;
+    
+}
+.btn.btn-number:hover{
+    color: black;
+}
+
+
+.container {
+    background: white;
+    max-width: 35%;
+    max-height: 100%;
+    padding: 20px;
+    height: 100%;
+}
+
+
+#trouble-login {
+    color: black;
+}
+
+#trouble-login:hover
+    {color: darkblue;
+}
